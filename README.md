@@ -18,7 +18,7 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 
 | # | Project | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | Tasks Done | Status |
 |:-:|---------|:-------:|:-------:|:-------:|:-------:|:-------:|:----------:|:------:|
-| 1 | [Spotify Tracks](01-spotify-tracks/) |  | ✅ | ⬜ | ⬜ | ⬜ | 6 / 30 | In progress |
+| 1 | [Spotify Tracks](01-spotify-tracks/) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | 6 / 30 | In progress |
 | 2 | [Netflix Titles](02-netflix-titles/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 3 | [Formula 1](03-formula-1/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 4 | [International Football](04-international-football/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
