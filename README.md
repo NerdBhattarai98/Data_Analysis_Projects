@@ -28,7 +28,7 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 <summary><b>1. Spotify Tracks</b></summary>
 
 ### Level 1: Foundations
-- [ ] 1. Load the CSV and display the first 10 rows
+- [X] 1. Load the CSV and display the first 10 rows
 - [ ] 2. Display the last 5 rows and 5 random rows
 - [ ] 3. Find the number of rows and columns using `shape`
 - [ ] 4. Inspect column names, data types and non-null counts using `info()`
