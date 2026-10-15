@@ -8,11 +8,17 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 - Turn raw data into clear, evidence-based conclusions.
 - Document every step so the work can be reproduced and reviewed.
 
+⬜ = Not started
+
+🟧 (or 🟨) = In progress / Half done
+
+🟩 (or ✅) = Fully completed
+
 ## Progress Overview
 
 | # | Project | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | Tasks Done | Status |
 |:-:|---------|:-------:|:-------:|:-------:|:-------:|:-------:|:----------:|:------:|
-| 1 | [Spotify Tracks](01-spotify-tracks/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | In progress |
+| 1 | [Spotify Tracks](01-spotify-tracks/) |  | ✅ | ⬜ | ⬜ | ⬜ | 6 / 30 | In progress |
 | 2 | [Netflix Titles](02-netflix-titles/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 3 | [Formula 1](03-formula-1/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 4 | [International Football](04-international-football/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
@@ -29,11 +35,11 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 
 ### Level 1: Foundations
 - [X] 1. Load the CSV and display the first 10 rows
-- [ ] 2. Display the last 5 rows and 5 random rows
-- [ ] 3. Find the number of rows and columns using `shape`
-- [ ] 4. Inspect column names, data types and non-null counts using `info()`
-- [ ] 5. Select five relevant columns (track name, artist, popularity, energy, danceability)
-- [ ] 6. Count unique artists, genres and track IDs
+- [X] 2. Display the last 5 rows and 5 random rows
+- [X] 3. Find the number of rows and columns using `shape`
+- [X] 4. Inspect column names, data types and non-null counts using `info()`
+- [X] 5. Select five relevant columns (track name, artist, popularity, energy, danceability)
+- [X] 6. Count unique artists, genres and track IDs
 
 ### Level 2: Cleaning and selection
 - [ ] 7. Count missing values per column and rank the columns
