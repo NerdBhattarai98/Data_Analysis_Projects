@@ -18,7 +18,7 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 
 | # | Project | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | Tasks Done | Status |
 |:-:|---------|:-------:|:-------:|:-------:|:-------:|:-------:|:----------:|:------:|
-| 1 | [Spotify Tracks](01-spotify-tracks/) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | 6 / 30 | In progress |
+| 1 | [Spotify Tracks](01-spotify-tracks/) | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 30 / 30 | Completed |
 | 2 | [Netflix Titles](02-netflix-titles/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 3 | [Formula 1](03-formula-1/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
 | 4 | [International Football](04-international-football/) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0 / 30 | Not started |
@@ -42,36 +42,36 @@ A collection of exploratory data analysis (EDA) projects built with Python, Pand
 - [X] 6. Count unique artists, genres and track IDs
 
 ### Level 2: Cleaning and selection
-- [ ] 7. Count missing values per column and rank the columns
-- [ ] 8. Find duplicate rows and investigate duplicate track IDs separately
-- [ ] 9. Calculate the percentage of missing values per column using NumPy
-- [ ] 10. Filter tracks with popularity greater than 70
-- [ ] 11. Filter tracks with energy above 0.7 and danceability above 0.6
-- [ ] 12. Sort tracks by popularity, duration and energy in different orders
+- [X] 7. Count missing values per column and rank the columns
+- [X] 8. Find duplicate rows and investigate duplicate track IDs separately
+- [X] 9. Calculate the percentage of missing values per column using NumPy
+- [X] 10. Filter tracks with popularity greater than 70
+- [X] 11. Filter tracks with energy above 0.7 and danceability above 0.6
+- [X] 12. Sort tracks by popularity, duration and energy in different orders
 
 ### Level 3: Grouping and feature engineering
-- [ ] 13. Find the 20 most popular tracks
-- [ ] 14. Count tracks by genre and identify the most common genres
-- [ ] 15. Calculate mean, median and standard deviation of popularity
-- [ ] 16. Find the 10 artists with the most tracks
-- [ ] 17. Create a duration-in-minutes column from milliseconds
-- [ ] 18. Create a popularity category (low, medium, high) with documented thresholds
+- [X] 13. Find the 20 most popular tracks
+- [X] 14. Count tracks by genre and identify the most common genres
+- [X] 15. Calculate mean, median and standard deviation of popularity
+- [X] 16. Find the 10 artists with the most tracks
+- [X] 17. Create a duration-in-minutes column from milliseconds
+- [X] 18. Create a popularity category (low, medium, high) with documented thresholds
 
 ### Level 4: Statistical analysis
-- [ ] 19. Calculate the 25th, 50th and 75th percentiles of popularity with NumPy
-- [ ] 20. Classify tracks as high-energy or low-energy using `np.where()`
-- [ ] 21. Calculate the correlation of popularity with energy and with danceability
-- [ ] 22. Compare average popularity for explicit and non-explicit tracks
-- [ ] 23. Use the IQR method to identify unusually long tracks
-- [ ] 24. Find genres with above-overall-median popularity (minimum tracks per genre)
+- [X] 19. Calculate the 25th, 50th and 75th percentiles of popularity with NumPy
+- [X] 20. Classify tracks as high-energy or low-energy using `np.where()`
+- [X] 21. Calculate the correlation of popularity with energy and with danceability
+- [X] 22. Compare average popularity for explicit and non-explicit tracks
+- [X] 23. Use the IQR method to identify unusually long tracks
+- [X] 24. Find genres with above-overall-median popularity (minimum tracks per genre)
 
 ### Level 5: Analytical challenges
-- [ ] 25. Compare the top 10% and bottom 10% of tracks across audio features
-- [ ] 26. Rank artists with at least 10 tracks by median popularity
-- [ ] 27. Identify tracks that are highly popular, energetic and danceable
-- [ ] 28. Check whether mean and median popularity give different genre rankings
-- [ ] 29. Build a genre summary DataFrame (count, median popularity, average energy and danceability)
-- [ ] 30. Write five findings, two limitations and three future questions
+- [X] 25. Compare the top 10% and bottom 10% of tracks across audio features
+- [X] 26. Rank artists with at least 10 tracks by median popularity
+- [X] 27. Identify tracks that are highly popular, energetic and danceable
+- [X] 28. Check whether mean and median popularity give different genre rankings
+- [X] 29. Build a genre summary DataFrame (count, median popularity, average energy and danceability)
+- [X] 30. Write five findings, two limitations and three future questions
 
 </details>
 
