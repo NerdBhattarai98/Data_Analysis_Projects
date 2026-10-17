@@ -5,7 +5,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
-![Progress](https://img.shields.io/badge/Progress-30%2F300%20tasks-orange)
+![Progress](https://img.shields.io/badge/Progress-0%2F300%20tasks-orange)
 
 A practical data analysis portfolio built with Python. Five real-world datasets are analyzed through 60 structured tasks each (300 in total), progressing from data inspection and cleaning to statistical analysis, visualization and evidence-based reporting.
 
