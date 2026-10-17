@@ -30,12 +30,12 @@ A practical data analysis portfolio built with Python. Five real-world datasets 
 
 | Project | Total Tasks | Completed | Remaining | Status |
 |---------|:-----------:|:---------:|:---------:|--------|
-| Spotify Tracks | 60 | 30 | 30 | In progress |
+| Spotify Tracks | 60 | 0 | 60 | In progress |
 | Netflix Titles | 60 | 0 | 60 | Not started |
 | Formula 1 | 60 | 0 | 60 | Not started |
 | International Football | 60 | 0 | 60 | Not started |
 | World Happiness 2019 | 60 | 0 | 60 | Not started |
-| **Total** | **300** | **30** | **270** | |
+| **Total** | **300** | **0** | **300** | |
 
 Each project uses the same six levels of ten tasks:
 
@@ -130,61 +130,61 @@ This project explores a dataset of Spotify tracks to understand what is associat
 
 #### Level 1 — Data Fundamentals (Tasks 1–10)
 
-- [x] **Task 01 — Preview the Dataset**
+- [] **Task 01 — Preview the Dataset**
   - **Objective:** Get a first look at the structure and content of the data.
   - **Requirements:** Load the CSV into a DataFrame; display the first 10 rows.
   - **Skills:** `pd.read_csv()`, `head()`
   - **Expected output:** A 10-row preview.
 
-- [x] **Task 02 — Inspect the End and a Random Sample**
+- [] **Task 02 — Inspect the End and a Random Sample**
   - **Objective:** Check whether the data looks consistent beyond the first rows.
   - **Requirements:** Display the last 5 rows; display 5 random rows using a fixed random seed.
   - **Skills:** `tail()`, `sample()`
   - **Expected output:** Two small previews.
 
-- [x] **Task 03 — Measure Dataset Size**
+- [] **Task 03 — Measure Dataset Size**
   - **Objective:** Know how many records and variables you are working with.
   - **Requirements:** Report the number of rows and columns.
   - **Skills:** `shape`
   - **Expected output:** Row and column counts.
 
-- [x] **Task 04 — Check Data Types and Completeness**
+- [] **Task 04 — Check Data Types and Completeness**
   - **Objective:** Confirm each column has a sensible type and see where values are missing.
   - **Requirements:** Review column names, data types and non-null counts.
   - **Skills:** `info()`, `dtypes`
   - **Expected output:** A short note on any unexpected types.
 
-- [x] **Task 05 — Select Core Columns**
+- [] **Task 05 — Select Core Columns**
   - **Objective:** Create a focused view of the most relevant fields.
   - **Requirements:** Select `track_name`, `artists`, `popularity`, `energy` and `danceability`.
   - **Skills:** Column selection
   - **Expected output:** A five-column DataFrame.
 
-- [x] **Task 06 — Count Unique Entities**
+- [] **Task 06 — Count Unique Entities**
   - **Objective:** Understand how many distinct artists, genres and tracks exist.
   - **Requirements:** Count unique values in `artists`, `track_genre` and `track_id`; compare unique `track_id` with total rows.
   - **Skills:** `nunique()`
   - **Expected output:** Three counts and a note on repeated IDs.
 
-- [x] **Task 07 — Rank Columns by Missing Values**
+- [] **Task 07 — Rank Columns by Missing Values**
   - **Objective:** Find where data is incomplete.
   - **Requirements:** Count missing values per column; sort from most to least missing.
   - **Skills:** `isna()`, `sum()`, `sort_values()`
   - **Expected output:** A ranked missing-value table.
 
-- [x] **Task 08 — Investigate Duplicates**
+- [] **Task 08 — Investigate Duplicates**
   - **Objective:** Distinguish fully duplicated rows from repeated track IDs.
   - **Requirements:** Count fully duplicated rows; separately count `track_id` values that appear more than once; inspect examples of each.
   - **Skills:** `duplicated()`, `value_counts()`
   - **Expected output:** Two counts and an explanation of the difference.
 
-- [x] **Task 09 — Calculate Missing-Value Percentages**
+- [] **Task 09 — Calculate Missing-Value Percentages**
   - **Objective:** Express missing data relative to dataset size.
   - **Requirements:** Calculate the percentage of missing values per column using NumPy; round sensibly.
   - **Skills:** NumPy arithmetic, `round()`
   - **Expected output:** A percentage table.
 
-- [x] **Task 10 — Filter Popular Tracks**
+- [] **Task 10 — Filter Popular Tracks**
   - **Objective:** Isolate highly popular tracks.
   - **Requirements:** Filter tracks with `popularity` greater than 70; report how many qualify and their share of all tracks.
   - **Skills:** Boolean filtering
@@ -192,61 +192,61 @@ This project explores a dataset of Spotify tracks to understand what is associat
 
 #### Level 2 — Data Cleaning and Manipulation (Tasks 11–20)
 
-- [x] **Task 11 — Filter Energetic, Danceable Tracks**
+- [] **Task 11 — Filter Energetic, Danceable Tracks**
   - **Objective:** Combine conditions to find a specific track profile.
   - **Requirements:** Filter tracks with `energy` above 0.7 and `danceability` above 0.6.
   - **Skills:** Multiple Boolean conditions
   - **Expected output:** A filtered DataFrame and its count.
 
-- [x] **Task 12 — Sort by Several Columns**
+- [] **Task 12 — Sort by Several Columns**
   - **Objective:** Practise ordering data in different ways.
   - **Requirements:** Sort by `popularity`, `duration_ms` and `energy` using different ascending/descending combinations.
   - **Skills:** `sort_values()` with multiple keys
   - **Expected output:** Sorted previews.
 
-- [x] **Task 13 — Find the 20 Most Popular Tracks**
+- [] **Task 13 — Find the 20 Most Popular Tracks**
   - **Objective:** Identify the top tracks.
   - **Requirements:** Return the 20 highest-popularity tracks with name, artist and genre.
   - **Skills:** `nlargest()` or sorting
   - **Expected output:** A 20-row table.
 
-- [x] **Task 14 — Count Tracks by Genre**
+- [] **Task 14 — Count Tracks by Genre**
   - **Objective:** See how tracks are distributed across genres.
   - **Requirements:** Count tracks per genre; identify the most common genres.
   - **Skills:** `value_counts()`
   - **Expected output:** A genre count table.
 
-- [x] **Task 15 — Summarize Popularity**
+- [] **Task 15 — Summarize Popularity**
   - **Objective:** Describe the centre and spread of popularity.
   - **Requirements:** Calculate the mean, median and standard deviation of `popularity`.
   - **Skills:** Pandas and NumPy statistics
   - **Expected output:** Three statistics.
 
-- [x] **Task 16 — Find the Most Prolific Artists**
+- [] **Task 16 — Find the Most Prolific Artists**
   - **Objective:** Identify artists with the most tracks.
   - **Requirements:** List the 10 artists with the most tracks.
   - **Skills:** `value_counts()`
   - **Expected output:** A top-10 table.
 
-- [x] **Task 17 — Convert Duration to Minutes**
+- [] **Task 17 — Convert Duration to Minutes**
   - **Objective:** Make track length easier to interpret.
   - **Requirements:** Create a duration-in-minutes column from `duration_ms`.
   - **Skills:** Vectorized arithmetic
   - **Expected output:** A new column.
 
-- [x] **Task 18 — Create Popularity Categories**
+- [] **Task 18 — Create Popularity Categories**
   - **Objective:** Group tracks into low, medium and high popularity.
   - **Requirements:** Define and document the thresholds; create the category column.
   - **Skills:** `pd.cut()`
   - **Expected output:** A category column and its counts.
 
-- [x] **Task 19 — Calculate Popularity Percentiles**
+- [] **Task 19 — Calculate Popularity Percentiles**
   - **Objective:** Describe the popularity distribution with percentiles.
   - **Requirements:** Calculate the 25th, 50th and 75th percentiles with NumPy.
   - **Skills:** `np.percentile()`
   - **Expected output:** Three percentile values.
 
-- [x] **Task 20 — Classify Energy Levels**
+- [] **Task 20 — Classify Energy Levels**
   - **Objective:** Label tracks as high- or low-energy.
   - **Requirements:** Create the label with `np.where()` using a documented threshold.
   - **Skills:** `np.where()`
@@ -254,61 +254,61 @@ This project explores a dataset of Spotify tracks to understand what is associat
 
 #### Level 3 — Aggregation and Feature Engineering (Tasks 21–30)
 
-- [x] **Task 21 — Correlate Popularity with Energy and Danceability**
+- [] **Task 21 — Correlate Popularity with Energy and Danceability**
   - **Objective:** Measure how these features move with popularity.
   - **Requirements:** Calculate both correlations.
   - **Skills:** `corr()`
   - **Expected output:** Two correlation values with a short interpretation.
 
-- [x] **Task 22 — Compare Explicit and Non-Explicit Tracks**
+- [] **Task 22 — Compare Explicit and Non-Explicit Tracks**
   - **Objective:** See whether explicit tracks differ in popularity.
   - **Requirements:** Compare average popularity by `explicit`; include group sizes.
   - **Skills:** `groupby()`
   - **Expected output:** A two-row comparison.
 
-- [x] **Task 23 — Detect Unusually Long Tracks**
+- [] **Task 23 — Detect Unusually Long Tracks**
   - **Objective:** Identify duration outliers.
   - **Requirements:** Apply the IQR rule to duration; count and inspect flagged tracks.
   - **Skills:** `np.percentile()`, IQR method
   - **Expected output:** Thresholds and a list of long tracks.
 
-- [x] **Task 24 — Find Above-Median Genres**
+- [] **Task 24 — Find Above-Median Genres**
   - **Objective:** Identify genres with higher typical popularity.
   - **Requirements:** Compare each genre's median popularity with the overall median; apply a minimum track count.
   - **Skills:** `groupby()`, filtering
   - **Expected output:** A filtered genre list.
 
-- [x] **Task 25 — Compare Top and Bottom 10%**
+- [] **Task 25 — Compare Top and Bottom 10%**
   - **Objective:** See how the most and least popular tracks differ.
   - **Requirements:** Split by popularity percentiles; compare average audio features.
   - **Skills:** Percentiles, `groupby()`
   - **Expected output:** A comparison table.
 
-- [x] **Task 26 — Rank Artists by Median Popularity**
+- [] **Task 26 — Rank Artists by Median Popularity**
   - **Objective:** Rank artists fairly.
   - **Requirements:** Keep artists with at least 10 tracks; rank by median popularity.
   - **Skills:** `groupby()`, `agg()`, filtering
   - **Expected output:** A ranked artist table.
 
-- [x] **Task 27 — Find Popular, Energetic, Danceable Tracks**
+- [] **Task 27 — Find Popular, Energetic, Danceable Tracks**
   - **Objective:** Combine three conditions into one profile.
   - **Requirements:** Define and document the thresholds; filter the matching tracks.
   - **Skills:** Combined Boolean filtering
   - **Expected output:** A filtered table and its share.
 
-- [x] **Task 28 — Compare Mean and Median Genre Rankings**
+- [] **Task 28 — Compare Mean and Median Genre Rankings**
   - **Objective:** Check whether the choice of statistic changes the ranking.
   - **Requirements:** Rank genres by mean and by median popularity; compare the two rankings.
   - **Skills:** `agg()`, `rank()`
   - **Expected output:** A side-by-side ranking.
 
-- [x] **Task 29 — Build a Genre Summary**
+- [] **Task 29 — Build a Genre Summary**
   - **Objective:** Create one reusable genre-level table.
   - **Requirements:** Include track count, median popularity, average energy and average danceability.
   - **Skills:** `groupby().agg()`
   - **Expected output:** A genre summary DataFrame.
 
-- [x] **Task 30 — Write First Findings**
+- [] **Task 30 — Write First Findings**
   - **Objective:** Summarize what the analysis shows so far.
   - **Requirements:** Write five findings, two limitations and three future questions.
   - **Skills:** Analytical writing
