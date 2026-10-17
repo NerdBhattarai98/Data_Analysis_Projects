@@ -126,7 +126,6 @@ This project explores a dataset of Spotify tracks to understand what is associat
 **Status:** 30 / 60 tasks completed
 
 ### Tasks
-> Tasks 1–30 were completed under the earlier five-level checklist and are kept here in their original order.
 
 #### Level 1 — Data Fundamentals (Tasks 1–10)
 
