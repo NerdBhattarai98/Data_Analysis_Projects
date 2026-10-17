@@ -5,7 +5,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
-![Progress](https://img.shields.io/badge/Progress-0%2F300%20tasks-orange)
+![Progress](https://img.shields.io/badge/Progress-10%2F300%20tasks-orange)
 
 A practical data analysis portfolio built with Python. Five real-world datasets are analyzed through 60 structured tasks each (300 in total), progressing from data inspection and cleaning to statistical analysis, visualization and evidence-based reporting.
 
@@ -123,67 +123,67 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 ### Overview
 This project explores a dataset of Spotify tracks to understand what is associated with track popularity, how audio features differ across genres, and how explicit content, duration, tempo and musical mode relate to listener engagement. The work progresses from basic inspection to multi-step investigations and a final evidence-based report.
 
-**Status:** 30 / 60 tasks completed
+
 
 ### Tasks
 
 #### Level 1 — Data Fundamentals (Tasks 1–10)
 
-- [] **Task 01 — Preview the Dataset**
+- [X] **Task 01 — Preview the Dataset**
   - **Objective:** Get a first look at the structure and content of the data.
   - **Requirements:** Load the CSV into a DataFrame; display the first 10 rows.
   - **Skills:** `pd.read_csv()`, `head()`
   - **Expected output:** A 10-row preview.
 
-- [] **Task 02 — Inspect the End and a Random Sample**
+- [X] **Task 02 — Inspect the End and a Random Sample**
   - **Objective:** Check whether the data looks consistent beyond the first rows.
   - **Requirements:** Display the last 5 rows; display 5 random rows using a fixed random seed.
   - **Skills:** `tail()`, `sample()`
   - **Expected output:** Two small previews.
 
-- [] **Task 03 — Measure Dataset Size**
+- [X] **Task 03 — Measure Dataset Size**
   - **Objective:** Know how many records and variables you are working with.
   - **Requirements:** Report the number of rows and columns.
   - **Skills:** `shape`
   - **Expected output:** Row and column counts.
 
-- [] **Task 04 — Check Data Types and Completeness**
+- [X] **Task 04 — Check Data Types and Completeness**
   - **Objective:** Confirm each column has a sensible type and see where values are missing.
   - **Requirements:** Review column names, data types and non-null counts.
   - **Skills:** `info()`, `dtypes`
   - **Expected output:** A short note on any unexpected types.
 
-- [] **Task 05 — Select Core Columns**
+- [X] **Task 05 — Select Core Columns**
   - **Objective:** Create a focused view of the most relevant fields.
   - **Requirements:** Select `track_name`, `artists`, `popularity`, `energy` and `danceability`.
   - **Skills:** Column selection
   - **Expected output:** A five-column DataFrame.
 
-- [] **Task 06 — Count Unique Entities**
+- [X] **Task 06 — Count Unique Entities**
   - **Objective:** Understand how many distinct artists, genres and tracks exist.
   - **Requirements:** Count unique values in `artists`, `track_genre` and `track_id`; compare unique `track_id` with total rows.
   - **Skills:** `nunique()`
   - **Expected output:** Three counts and a note on repeated IDs.
 
-- [] **Task 07 — Rank Columns by Missing Values**
+- [X] **Task 07 — Rank Columns by Missing Values**
   - **Objective:** Find where data is incomplete.
   - **Requirements:** Count missing values per column; sort from most to least missing.
   - **Skills:** `isna()`, `sum()`, `sort_values()`
   - **Expected output:** A ranked missing-value table.
 
-- [] **Task 08 — Investigate Duplicates**
+- [X] **Task 08 — Investigate Duplicates**
   - **Objective:** Distinguish fully duplicated rows from repeated track IDs.
   - **Requirements:** Count fully duplicated rows; separately count `track_id` values that appear more than once; inspect examples of each.
   - **Skills:** `duplicated()`, `value_counts()`
   - **Expected output:** Two counts and an explanation of the difference.
 
-- [] **Task 09 — Calculate Missing-Value Percentages**
+- [X] **Task 09 — Calculate Missing-Value Percentages**
   - **Objective:** Express missing data relative to dataset size.
   - **Requirements:** Calculate the percentage of missing values per column using NumPy; round sensibly.
   - **Skills:** NumPy arithmetic, `round()`
   - **Expected output:** A percentage table.
 
-- [] **Task 10 — Filter Popular Tracks**
+- [X] **Task 10 — Filter Popular Tracks**
   - **Objective:** Isolate highly popular tracks.
   - **Requirements:** Filter tracks with `popularity` greater than 70; report how many qualify and their share of all tracks.
   - **Skills:** Boolean filtering
