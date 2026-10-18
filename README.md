@@ -19,11 +19,11 @@ A practical data analysis portfolio built with Python. Five real-world datasets 
 
 | # | Project | Dataset focus | Main question |
 |---|---------|---------------|---------------|
-| 1 | [Spotify Tracks](#project-1-spotify-tracks) | Popularity, genres, artists, audio features | What audio profile do popular tracks and genres share? |
-| 2 | [Netflix Titles](#project-2-netflix-titles) | Movies vs TV shows, dates, ratings, countries, genres | How has the catalogue changed over time? |
-| 3 | [Formula 1](#project-3-formula-1) | Race results, grid and finishing positions, points | How much does grid position relate to the result? |
-| 4 | [International Football](#project-4-international-football) | Match results, teams, tournaments, venues | How large is home advantage, and how has scoring changed? |
-| 5 | [World Happiness 2019](#project-5-world-happiness-2019) | Happiness scores and country indicators | Which indicators are most associated with happiness? |
+| 1 | Spotify Tracks | Popularity, genres, artists, audio features | What audio profile do popular tracks and genres share? |
+| 2 | Netflix Titles | Movies vs TV shows, dates, ratings, countries, genres | How has the catalogue changed over time? |
+| 3 | Formula 1 | Race results, grid and finishing positions, points | How much does grid position relate to the result? |
+| 4 | International Football | Match results, teams, tournaments, venues | How large is home advantage, and how has scoring changed? |
+| 5 | World Happiness 2019 | Happiness scores and country indicators | Which indicators are most associated with happiness? |
 
 ### Progress
 
@@ -118,7 +118,12 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 
 ---
 
-# Project 1: Spotify Tracks
+## Projects in Detail
+
+_Click a project to expand it._
+
+<details>
+<summary><b>Project 1: Spotify Tracks</b></summary>
 
 **Question:** What audio profile do popular tracks and genres share, and how do explicit tracks compare?
 
@@ -162,9 +167,10 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 - [ ] Five findings with numbers and sample sizes, limitations, follow-up questions
 - [ ] Export genre summary and cleaned data to `outputs/`; embed key charts in the README
 
----
+</details>
 
-# Project 2: Netflix Titles
+<details>
+<summary><b>Project 2: Netflix Titles</b></summary>
 
 **Question:** How has the catalogue changed over time, and does Netflix add recent or older titles?
 
@@ -208,9 +214,10 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 - [ ] Five findings with numbers; explain how missing director, cast and country data affects conclusions
 - [ ] Export cleaned data and summaries; embed key charts in the README
 
----
+</details>
 
-# Project 3: Formula 1
+<details>
+<summary><b>Project 3: Formula 1</b></summary>
 
 **Question:** How much does grid position relate to the result, and who gains places consistently?
 
@@ -258,9 +265,10 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 
 **Optional extensions** (need extra tables): drivers (names), constructors (team names), races (seasons and dates), status (reasons for not finishing).
 
----
+</details>
 
-# Project 4: International Football
+<details>
+<summary><b>Project 4: International Football</b></summary>
 
 **Question:** How large is home advantage, and how has scoring changed over time?
 
@@ -305,9 +313,10 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 - [ ] Five findings with numbers; note that more matches are recorded in recent decades
 - [ ] Export team-perspective table and summaries; embed key charts in the README
 
----
+</details>
 
-# Project 5: World Happiness 2019
+<details>
+<summary><b>Project 5: World Happiness 2019</b></summary>
 
 **Question:** Which indicators are most associated with happiness, and which countries differ from what GDP suggests?
 
@@ -354,6 +363,8 @@ Datasets may not be included because of file size. Download the CSV listed in ea
 - [ ] Export country summary, correlation table and residuals; embed key charts in the README
 
 **Optional extensions:** region mapping (regional comparisons) and other years of data (trends over time).
+
+</details>
 
 ---
 
